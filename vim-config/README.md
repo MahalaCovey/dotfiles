@@ -7,7 +7,7 @@
 ## ChatGPT
 - Prompt: I've cloned Vundle and now have to do this. Please help: Add to your .vimrc file instructions to use Vundle and refer to plugins (next steps)  
 ChatGPT gave me the vim ~/.vimrc command and template for the file.
-- Prompt: How do I include a colorscheme? 
+- Prompt: How do I include a colorscheme?  
 ChatGPT gave me directions on how to include an example colorscheme - Gruvbox.
 - Prompt: I have Plugin 'endel/vim-github-colorscheme' how do I add that?  
 ChatGPT a template and told me to run the :Plugininstall command.

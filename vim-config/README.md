@@ -16,4 +16,5 @@ ChatGPT gave me directions on how to include an example colorscheme - Gruvbox.
 ChatGPT a template and told me to run the :Plugininstall command.
 - Prompt: E492: Not an editor command: Plugin 'vim-airline/vim-airline'  
 ChatGPT gave me steps on how to fix the error. 
-
+# Jellbeans Warning
+- If you see the error E185: Cannot find color scheme 'jellybeans,' don't panic. Open a file in Vim and you will see that the color scheme is working.

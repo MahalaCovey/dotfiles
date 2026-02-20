@@ -4,7 +4,9 @@
 - [2 ways to add new line with Vi](https://www.howtouselinux.com/post/2-ways-to-add-new-line-with-vi-vim)
 - [How to Copy, Cut and Paste in Vim / Vi](https://linuxize.com/post/how-to-copy-cut-paste-in-vim/)
 - [cp Command in Linux](https://www.geeksforgeeks.org/linux-unix/cp-command-linux-examples/)
-
+- [What is the Bash file extension?](https://stackoverflow.com/questions/27813563/what-is-the-bash-file-extension)
+- [Writing Comments in Bash Scripts](https://linuxize.com/post/bash-comments/)
+- [How do I tell if a file does not exist in Bash?](https://stackoverflow.com/questions/638975/how-do-i-tell-if-a-file-does-not-exist-in-bash#638980)
 ## ChatGPT
 - Prompt: I've cloned Vundle and now have to do this. Please help: Add to your .vimrc file instructions to use Vundle and refer to plugins (next steps)  
 ChatGPT gave me the vim ~/.vimrc command and template for the file.

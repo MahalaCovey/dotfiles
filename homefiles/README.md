@@ -1,5 +1,6 @@
 # Files
-
+`.basrc` provides aliases for easily traversal by replacing cd .., cd ..., etc with .., ... etc.
+`copyBash.sh` is a script that copies `.bashrc` file in my dotfiles repository to my user's home directory.
 
 # Citations
 ## Websites

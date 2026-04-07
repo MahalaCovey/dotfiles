@@ -1,8 +1,8 @@
 # About
-installAnsible.sh downloads and installs Ansible. It ensures you run the bash script with sudo. Checks for apt, and makes sure the software does not already exist on the machine. 
+installAnsible.sh downloads and installs Ansible. It ensures you run the bash script with sudo. It also checks for apt, and makes sure the software does not already exist on the machine. 
 # Citations
 ## Website 
--[rm -r](https://linuxize.com/post/remove-directory-linux/)
+- [rm -r](https://linuxize.com/post/remove-directory-linux/)
 ## Claude Prompt
 ```
 Please write a Bash script for installing Ansible on Ubuntu Linux based on the following requirements.

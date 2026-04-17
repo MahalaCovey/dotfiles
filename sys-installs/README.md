@@ -1,8 +1,13 @@
 # About
 installAnsible.sh downloads and installs Ansible. It ensures you run the bash script with sudo. It also checks for apt, and makes sure the software does not already exist on the machine. 
 # Citations
-## Website 
+## Websites 
 - [rm -r](https://linuxize.com/post/remove-directory-linux/)
+- [pipefail flags #1](https://linuxsimply.com/bash-scripting-tutorial/process-and-signal-handling/exit-codes/pipefail/)
+- [pipefail flags #2](https://gist.github.com/akrasic/380bda362e0420be08709152c91ca1f9)
+- [<& operator](https://www.gnu.org/software/bash/manual/bash.html)
+-[install command flags](https://www.geeksforgeeks.org/linux-unix/install-command-in-linux-with-examples/)
+- [-qq](https://serverfault.com/questions/644180/what-does-qq-argument-for-apt-get-mean)
 ## Claude Prompt
 ```
 Please write a Bash script for installing Ansible on Ubuntu Linux based on the following requirements.

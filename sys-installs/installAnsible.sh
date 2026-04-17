@@ -4,6 +4,8 @@
 # install_ansible.sh — Install Ansible on Ubuntu Linux
 # =============================================================================
 
+# -euo  flags mean exit if a command has a non-zero exit status, exit if there is an undefined variable, and the pipeline exits 
+# with the code of the last executed command
 set -euo pipefail
 
 # ── Formatting ────────────────────────────────────────────────────────────────
@@ -32,6 +34,7 @@ if [[ "${EUID}" -ne 0 ]]; then
 fi
 success "Running as root — permission check passed."
 
+# -v flag means version, &> means redirect standard output and error output to /dev/null
 # ── 2. apt availability check ─────────────────────────────────────────────────
 if ! command -v apt &>/dev/null; then
     error "This script requires the 'apt' package manager, which was not found."
@@ -85,6 +88,7 @@ if command -v "${SOFTWARE_NAME}" &>/dev/null; then
 fi
 success "No name conflict — '${SOFTWARE_NAME}' is not currently installed."
 
+# -y flag means yes -qq flag means very quiet output
 # ── 5. Silent installation ────────────────────────────────────────────────────
 info "Updating package index…"
 apt update -qq
@@ -92,6 +96,7 @@ apt update -qq
 info "Installing ${SOFTWARE_NAME} (non-interactive)…"
 DEBIAN_FRONTEND=noninteractive apt install -y -qq "${PACKAGE_NAME}"
 
+# -v means version and  &> means redirect output to /dev/null
 # ── 6. Post-install verification ─────────────────────────────────────────────
 if ! command -v "${SOFTWARE_NAME}" &>/dev/null; then
     error "Installation appeared to complete, but '${SOFTWARE_NAME}' was not found in PATH."

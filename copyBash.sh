@@ -5,6 +5,8 @@ BASHRC_SOURCE="$DOTFILES_DIR/.bashrc"
 BASHRC_TARGET="$HOME/.bashrc"
 
 # Backup existing .bashrc if it exists and is not already a symlink
+# -f flag means file exists and is a regular file
+# ! -L flag means NOT file exists and is a symbolic link
 if [ -f "$BASHRC_TARGET" ] && [ ! -L "$BASHRC_TARGET" ]; then
     BACKUP="$HOME/.bashrc.backup.$(date +%s)"
     echo "Backing up existing .bashrc to $BACKUP"

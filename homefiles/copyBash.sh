@@ -19,6 +19,7 @@ echo "Creating symlink:"
 echo "$BASHRC_TARGET -> $BASHRC_SOURCE"
 ln -sf "$BASHRC_SOURCE" "$BASHRC_TARGET"
 
+# Prints messages to terminal
 echo
 echo "Setup complete."
 echo "To apply the changes, reload your environment:"

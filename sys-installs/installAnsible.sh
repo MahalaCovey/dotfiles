@@ -64,6 +64,7 @@ echo
 echo -e "${BOLD}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${RESET}"
 echo
 
+# Asks user to proceed with installation of Ansible
 read -rp "$(echo -e "${BOLD}Proceed with installation? [y/n]:${RESET} ")" choice
 case "${choice}" in
     [Yy]) echo ;;
